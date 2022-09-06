@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+
+/* === header sec start === */
+
+header {
+    border-bottom: 3px solid #f1f2f5;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    display: inline-block;
+
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    width: 56%;
+    float: right;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+    list-style: none;
+}
+
+.menu ul li a {
+    padding: 0px 11px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+.menu ul li a:hover {
+    color: blue;
+}
+
+/* === header sec end === */
+
+
+
+/* === slide sec start === */
+
+.slide_sec {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text_sec h1 {
+    font-size: 45px;
+    color: #0f2656;
+    line-height: 50px;
+    margin: 70px 0px 30px;
+}
+
+.text_sec h1 span {
+    color: #008aff;
+}
+
+.text_sec p {
+    margin: 0;
+}
+
+
+.img_sec img {
+    width: 75%;
+    margin: 40px 0 0;
+}
+
+/* === slide sec end === */
+
+
+
+
+/* === project sec start === */
+
+.project_sec {
+    width: 60%;
+    margin: 110px auto 70px;
+}
+
+.lorem {
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+}
+
+.lorem h1 {
+    margin: 0;
+    font-size: 40px;
+    color: #f15969;
+}
+
+.lorem p {
+    color: #9f9192;
+    font-size: 20px;
+}
+
+.ideas {
+    width: 48%;
+    float: right;
+}
+
+.ideas h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #0f2656;
+}
+
+/* === project sec end === */
+
+
+
+/* === images sec start === */
+
+.images-sec {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.images-sec img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* === images sec end === */
+
+
+
+
+/* === footer sec start === */
+
+footer {
+    background-color: #008aff;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.text p {
+    color: #efc4c9;
+}
+
+.text p span {
+    color: white;
+}
+
+/* === footer sec end === */
